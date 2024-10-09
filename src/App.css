@@ -136,7 +136,7 @@ display: block;
 
 
 .collapsible {
-  background-color: #9bc4d5;
+  /* background-color: #9bc4d5;
   color: white;
   cursor: pointer;
   padding: 1rem;
@@ -147,7 +147,17 @@ display: block;
   font-size: 1rem;
   display: flex;
   justify-content: center;
-  color: black;
+  color: black; */
+
+  align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-weight: 700;
+    line-height: 1.25rem;
+    min-height: 3.5rem;
+    padding: 1rem 3rem 1rem 1rem;
+    position: relative;
+    font-size: 1.2rem;
 }
 
 .yearCollapsible button {
@@ -156,16 +166,21 @@ display: block;
   align-items: center;
   padding: 24px;
     height: 31px;
-    width: 22vw;
+    width: 18.3vw;
     margin: 4px auto;
-    border-radius: 23px;
+    border-radius: 15px;
     
   
 }
 
 .collapsible.active, .collapsible:hover {
-  background-color: #002a3d;
-  color: rgb(255, 255, 255);
+  /* background-color: #378bb2; */
+  /* color: rgb(255, 255, 255); */
+  transform: translateY(-7px);
+  box-shadow: 5px 5px  rgba(4, 35, 78, 0.871);
+  border: 0.1px solid #053b54;
+  transition: 0.30s ease;
+  border-color: #012230;
 }
 
 .content {

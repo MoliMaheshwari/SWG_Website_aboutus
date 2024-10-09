@@ -85,7 +85,7 @@ const AboutUs = () => {
         className={`buttonCategory ${showCategory === 'sms' ? 'active' : ''}`}
         onClick={() => toggleShowCategory(year, 'sms')}
       >
-        SMs
+        Student Members
       </button>
     </div>
   );
