@@ -73,6 +73,7 @@ display: block;
   .title h1 {
     font-size: 3rem;
     margin: 1.5rem 0;
+    color: #00293A;
   }
 
   .topArea p {
@@ -87,6 +88,7 @@ display: block;
   justify-content: center;
   padding: 33px;
   font-size: 23px;
+ color: #00293A;;
 }
 
 
@@ -94,21 +96,21 @@ display: block;
   display: flex;
   align-items: center;
  justify-content: center;
- gap: 4rem;
+ gap: 0.2rem;
  margin: 1rem auto;
  flex-wrap: wrap;
 }
 
 
 .tab button{
-    background-color: #fff;
+    background-color: #ffffff;
     box-sizing: initial;
     cursor: pointer;
     font-size: 0.9rem;
     outline: none;
     padding: 0.5rem 1rem;
     position: relative;
-    transition: 0.5s;
+    transition: 0.35s ease-in-out;
     /* width: 50%; */
     flex: 1 1 200px;
     max-width: 200px;
@@ -136,18 +138,6 @@ display: block;
 
 
 .collapsible {
-  /* background-color: #9bc4d5;
-  color: white;
-  cursor: pointer;
-  padding: 1rem;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 1rem;
-  display: flex;
-  justify-content: center;
-  color: black; */
 
   align-items: center;
     cursor: pointer;
@@ -166,21 +156,19 @@ display: block;
   align-items: center;
   padding: 24px;
     height: 31px;
-    width: 18.3vw;
+    width: 19vw;
     margin: 4px auto;
     border-radius: 15px;
+    background-color: #ffffff;
+    border-width: 1px;
     
   
 }
 
 .collapsible.active, .collapsible:hover {
-  /* background-color: #378bb2; */
-  /* color: rgb(255, 255, 255); */
-  transform: translateY(-7px);
-  box-shadow: 5px 5px  rgba(4, 35, 78, 0.871);
-  border: 0.1px solid #053b54;
-  transition: 0.30s ease;
-  border-color: #012230;
+ 
+  box-shadow: 0 0px 10px 0 #028D93;
+  transition: 0.35s ease-in-out;
 }
 
 .content {
